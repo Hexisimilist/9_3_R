@@ -10,7 +10,7 @@ namespace _9_3
         public static string Size_Value(this ClothingSize clothingSize)
         {
 
-            if (clothingSize.Equals(32))
+            if ((int)clothingSize==32)
                 return "Детский размер";
             else
                 return "Взрослый размер";
